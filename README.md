@@ -24,7 +24,7 @@ Spline Class:
 	CalculateTangent(p0, p1, m0, m1, t)
 	NormalFromTangent(Tangent)
 
-Usage:
+# Usage
 
 ```
 if(spline != null)
@@ -44,3 +44,17 @@ else
 	spline = new CatmullRom(controlPoints, resolution, closedLoop);
 }
 ```
+
+# Examples
+## Spline
+![Bubble](Renders/Spline.png "Render.png")
+## Normals
+![Bubble](Renders/SplineNormal.png "Render.png")
+## Tangents
+![Bubble](Renders/SplineTangent.png "Render.png")
+## It's pretty!
+![Bubble](Renders/SplineComplete.png "Render.png")
+## Spline resolution
+![Bubble](Renders/SplineResolution.png "Render.png")
+## Open Loop
+![Bubble](Renders/SplineLoop.png "Render.png")
